@@ -13,7 +13,7 @@ html{
   line-height: 1.2;
 }
 
-.content{
+.content, .about{
   max-width: 960px;
   margin: 0 auto;
 }
@@ -118,4 +118,50 @@ ul li{
   max-width: 100%;
   height: 3rem;
   display: block;
+}
+
+.about{
+  padding-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.philosophy, .appointments{
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.philosophy{
+  padding-right: 5%;
+}
+
+.philosophy h2, .appointments h2{
+  padding: 0.5rem 0rem 0.5rem 1.25rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.title{
+  background-color: cadetblue;
+  color: white;
+  width: 10rem;
+  margin-bottom: 1rem;
+}
+
+.footer{
+  display: flex;
+  height: 9.5rem;
+  background-color: azure;
+}
+
+footer img{
+  padding: 4rem 1rem 4rem 4rem;
+  height: 1.5rem;
+}
+
+footer{
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
 }
